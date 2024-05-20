@@ -18,6 +18,7 @@
             AllowDuplicates="True"
             Separator="-"
             Tags="{Binding Tags}" />
+        <Button Margin="20" Command="{Binding ChangeBindTags}">Change Bind Tags</Button>
         <u:TagInput
             Margin="20"
             AllowDuplicates="False"

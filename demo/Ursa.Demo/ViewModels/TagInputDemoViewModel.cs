@@ -17,4 +17,9 @@ public class TagInputDemoViewModel: ViewModelBase
         get => _distinctTags;
         set => SetProperty(ref _distinctTags, value);
     }
+
+    public void ChangeBindTags()
+    {
+        Tags = new ObservableCollection<string> { "tag1", "tag2", "tag3" };
+    }
 }
